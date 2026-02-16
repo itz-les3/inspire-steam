@@ -36,7 +36,30 @@ cleaned_balance = balance.replace("Kshs", "")
 
 print(f"Cleaned balance: ",cleaned_balance)
  # asssignment
- Mpesa_message = "CONFIRMED you have received 40Kshs from John Doe"
+Mpesa_message = "CONFIRMED you have received 40Kshs from John Doe"
 print(Mpesa_message)
 split1= Mpesa_message.split(" ")
 print(f"The amount received is: {split1[5]}")
+
+#Assignment
+Mpesa_message= "CONFIRMED you have received 40Kshs from John Doe"
+
+split1 = Mpesa_message.split(" ")
+
+print("Split 1 contents: ", split1)
+
+print("the amount is: ",split1[4])
+
+amount_added1 = split1[4]
+
+cleaned_amount_added1 = amount_added1.replace("Kshs", "")
+
+print("Cleaned amount added: ",cleaned_amount_added1)
+
+balance1 = 50
+
+new_balance1 = int(balance1) + int(cleaned_amount_added1)
+
+print("New balance = ",new_balance1)
+
+
