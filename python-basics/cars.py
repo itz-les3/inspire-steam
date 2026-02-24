@@ -1,5 +1,6 @@
-#Mark Leslie
-#23/02/25 
+#Name: Mark Leslie
+#Date: 23/02/2026
+
 # program to show classes in python
 class car():
     # attributes of car
